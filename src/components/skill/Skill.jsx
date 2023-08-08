@@ -26,13 +26,13 @@ const Skill = () => {
           Skills that I have
           </span>
           <span>Languages & Frameworks</span>
-          <spane>
+          <span>
           Web development expert with a wide-ranging skill set.<br/>
           Adept at crafting captivating websites using HTML, CSS, and JavaScript,<br/>
           along with expertise in modern frameworks like nodejs,react,express,mongoose <br/>
           Committed to delivering seamless user experiences through responsive design.<br/>
           Enthusiastic about continuously upgrading knowledge to offer innovative solutions to clients.
-          </spane>
+          </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>

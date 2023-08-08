@@ -22,6 +22,7 @@
 /* slider */
 .portfolio .swiper{
     overflow: visible!important;
+    
 }
 
 .portfolio-slider {
@@ -38,3 +39,15 @@
   border-radius: 19px;
 }
 
+@media screen and (max-width: 480px) {
+
+  .portfolio img {
+    width: 17rem;
+  }
+  /* .portfolio-slider {
+    width: 310%;
+  } */
+  .portfolio-slider .swiper-slide {
+    width: 60rem;
+  }
+}

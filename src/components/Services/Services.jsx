@@ -26,12 +26,12 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
+        <span>
         Expert Web Developer offering responsive, and user-friendly websites tailored to your unique needs.<br/>
          With a keen eye for design and proficiency in modern technologies like HTML5, CSS3, and JavaScript,<br/>
           I create seamless online experiences that elevate your brand.<br/>
            Let's collaborate and unlock the full potential of your web presence
-        </spane>
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>

@@ -19,7 +19,11 @@ const Project = () => {
       {/* slider */}
       <Swiper
         spaceBetween={30}
-        slidesPerView={3}
+        breakpoints={{
+          480:{width:480,slidesPerView:1,},
+          1280:{width:1280,slidesPerView:3,}
+        }}
+        // slidesPerView={3}
         grabCursor={true}
         className="portfolio-slider"
       >

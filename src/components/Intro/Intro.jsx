@@ -3,8 +3,11 @@ import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import me from "../../img/me.png";
-import glassesimoji from "../../img/glassesimoji.png";
-import thumbup from "../../img/thumbup.png";
+// import glassesimoji from "../../img/glassesimoji.png";
+import vs from "../../img/vs code.png"
+ import thumbup from "../../img/thumbup.png";
+import mern from "../../img/MERN1.png";
+import webdev from "../../img/dev1.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
@@ -59,10 +62,11 @@ const Intro = () => {
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
-          whileInView={{ left: "-24%" }}
+          whileInView={{ left: "-12%" }}
           transition={transition}
-          src={glassesimoji}
+          src={vs}
           alt=""
+          // style={{transform:"scale(0.)"}}
         />
 
         <motion.div
@@ -71,7 +75,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={webdev} text1="Web" text2="Developer" />
         </motion.div>
 
         {/* animation */}
@@ -82,7 +86,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="MERN" text2="Stack" />
+          <FloatinDiv img={mern} text1="MERN" text2="Stack" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
