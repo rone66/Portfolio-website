@@ -46,10 +46,10 @@ const Skill = () => {
       </div>
       <div className="w-right">
         <motion.div
-          initial={{ rotate: 90 }}
-          whileInView={{ rotate: 0 }}
+          initial={{ rotate: 0 }}
+          whileInView={{ rotate: 360 }}
           viewport={{ margin: "-40px" }}
-          transition={{ duration: 3.5, type: "spring" }}
+          transition={{ duration: 6.5, type: "spring" }}
           className="w-mainCircle"
         >
            <div className='w-secCircle'>

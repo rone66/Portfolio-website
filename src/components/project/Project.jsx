@@ -2,14 +2,19 @@ import React, { useContext } from "react";
 import "./project.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import pwLms from "../../img/best digital marketing.png";
+import blogWebApp from "../../img/blog web app.png";
+import razorPay from "../../img/Razor pay website cloned.png";
+import weatherApp from "../../img/web.png";
+import miniProjects from "../../img/miniProject.png"
 import { themeContext } from "../../Context";
+
+
 const Project = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+ 
+
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
@@ -26,18 +31,22 @@ const Project = () => {
         // slidesPerView={3}
         grabCursor={true}
         className="portfolio-slider"
+        
       >
-        <SwiperSlide>
-          <img src={Sidebar} alt="" />
+        <SwiperSlide onClick={()=>window.location.href="https://pwlms-edutech-solution.vercel.app/"}>
+          <img src={pwLms} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+        <SwiperSlide onClick={()=>window.location.href="https://blog-web-app-five.vercel.app/login"}>
+          <img src={blogWebApp} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={MusicApp} alt="" />
+        <SwiperSlide onClick={()=>window.location.href="https://64cb2f2b77969a32ef5ce7c1--weather-webapp-066.netlify.app/"}>
+          <img src={weatherApp} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={HOC} alt="" />
+        <SwiperSlide onClick={()=>window.location.href="https://superlative-pavlova-230ff9.netlify.app/"}>
+          <img src={razorPay} alt="" />
+        </SwiperSlide>
+        <SwiperSlide onClick={()=>window.location.href="https://651401f9bbea0e008ba6dc61--legendary-madeleine-b8ceaf.netlify.app/"}>
+          <img src={miniProjects} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

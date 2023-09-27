@@ -5,10 +5,8 @@ import Vector2 from "../../img/Vector2.png";
 import me from "../../img/me.png";
 // import glassesimoji from "../../img/glassesimoji.png";
 import vs from "../../img/vs code.png"
- import thumbup from "../../img/thumbup.png";
 import mern from "../../img/MERN1.png";
 import webdev from "../../img/dev1.png";
-import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
