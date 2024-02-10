@@ -7,6 +7,7 @@ import blogWebApp from "../../img/blog web app.png";
 import razorPay from "../../img/Razor pay website cloned.png";
 import weatherApp from "../../img/web.png";
 import miniProjects from "../../img/miniProject.png"
+import youtubeClone from "../../img/YOUTUBE-CLONE.png"
 import { themeContext } from "../../Context";
 
 
@@ -38,6 +39,9 @@ const Project = () => {
         </SwiperSlide>
         <SwiperSlide onClick={()=>window.location.href="https://blog-web-app-five.vercel.app/login"}>
           <img src={blogWebApp} alt="" />
+        </SwiperSlide>
+        <SwiperSlide onClick={()=>window.location.href="https://youtube-clone-frontend-pi.vercel.app/"}>
+          <img src={youtubeClone} alt="" />
         </SwiperSlide>
         <SwiperSlide onClick={()=>window.location.href="https://64cb2f2b77969a32ef5ce7c1--weather-webapp-066.netlify.app/"}>
           <img src={weatherApp} alt="" />
